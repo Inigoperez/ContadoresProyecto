@@ -1,5 +1,6 @@
 class Contador {
-  String nombre = "";
+  //String nombre = "";
+  Future<String> nombre;
   int valor = 0;
 
   Contador(String nombre) {
